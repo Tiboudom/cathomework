@@ -1,0 +1,47 @@
+#cat {
+    background-color: pink;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 70px;
+    text-transform: uppercase;
+    border-top: 5px solid;
+}
+
+img {
+    height: 500px;
+    border-radius: 50%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100v;
+}
+
+button {
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    background-color: pink;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid black;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+button:hover {
+    transition: 0.3s;
+    background-color: blue;
+    color: pink;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+}
